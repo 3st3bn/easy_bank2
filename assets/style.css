@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#container{
+    margin: 0 auto;
+    width: 80%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+ header #menu{
+   display: flex;
+   justify-content: space-between;
+  align-items: center;
+}
+#menu{
+    width: 45%;
+    list-style: none;
+}
+#menu li a{
+    text-decoration: none;
+    color: #d1d1d1;
+}
+#menu li a:hover{
+   color:  #81ea54;
+}
+#boton-header{
+    background-color: rgb(14, 212, 100);    
+    border-radius: 30px;
+    padding: 12px 27px;
+    border: none;
+    color: azure;
+    width: 150px;
+    margin: 10px;
+}
+#content section{
+    width: 100%;
+}
+#content section{
+    padding: 150px 0;
+    background-image:url(/images/image-mockups.png),url(/images/bg-intro-desktop.svg);
+    background-position: 700px -150px,495px -250px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 450px;
+  }
+  #texto #titulo1{
+    color: rgb(24, 53,58);
+    font-size: 80px;
+    font-weight: 60;
+  }
+ 
+#descripcion > p{
+    color: rgb(120,120,120);
+    margin: 30px 0;
+    line-height: 25px;
+}
+#texto #descripcion{
+    width: 50%;
+    padding-right: 50px;
+    
+}
+#texto #boton-section{
+    background-color: rgb(14, 212, 100);
+    border-radius: 30px;
+    padding: 12px 27px;
+    border: none;
+    color: azure;
+    width: 150px;
+    margin: 10px;
+}
+#texto #boton-section:hover{
+    background-color:red ;
+}
+
+#content aside{
+    width: 35%;
+}
+#textos #titulo{
+   color: rgb(24, 53,58);
+  font-weight: 100;
+}
+#textos #explicacion{
+    color: rgb(120,120,120);
+    margin: 30px 0;
+    line-height: 25px;
+}
+aside #card{
+    display: flex;
+}
+#card .card{
+    margin-right: 30px;
+    background-color: white;
+    width: 50%;
+    overflow: hidden;
+}
+.card #img-card{
+    width: 100%;
+    border-radius: 10px;
+}
+#textos h3 a{
+    text-decoration: none;
+    color: rgb(107,106, 106);
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 20px;
+}
+#textos h3 a:hover{
+    color: rgb(0,194,194);
+}
+#textos h3{
+    margin: 0 20px;
+}
+#textos p{
+    margin: 20px;
+    color: rgb(120,120,120);
+    font-size: 14px;
+    line-height: 20px;
+}
+aside #article{
+    margin-top: 40px;
+    display: flex;
+}
+#article .article-card{
+    
+    background-color: white;
+    justify-content: space-between;
+    
+}
+.article-card #img-article{
+  size-adjust: auto;
+  background-color: blue;
+
+}
+#container footer{
+    background-color: rgb(26,26,83);
+    
+}
+
+
